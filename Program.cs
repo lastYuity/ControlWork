@@ -10,8 +10,8 @@ string[] CreateArray(int size)
         Console.Write("Введите значения для массива: ");
         string? pos = Console.ReadLine();
         array1[i] = pos!;
-    }
-          return array1;
+    } 
+    return array1;
 }
 string[] SecondArrayWithIF(string[] array1)
 {
